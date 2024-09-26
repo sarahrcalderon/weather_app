@@ -1,0 +1,22 @@
+{
+	"short_name": "Weather App",
+	"name": "Weather AppSinpro",
+	"lang": "pt-BR",
+	"serviceworker": {
+		"src": "service-worker.js"
+	},
+	"icons": [
+		{
+			"src": "favicon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "favicon.png",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	]
+
+}
